@@ -1,3 +1,27 @@
 body {
-    background: white;
+    background-color: #5f8071;
   } 
+
+#intro {
+  background-color: white;
+}
+
+#about {
+  background-color: white;
+}
+
+#interests {
+  background-color: white;
+}
+
+#professional {
+  background-color: white;
+}
+
+#contact {
+  background-color: white;
+}
+
+#footer {
+  background-color: black;
+}

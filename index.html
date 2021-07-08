@@ -200,10 +200,17 @@
     </section>
     <section id="contact"><!--Needs the HTML base, CSS formatting, and some sort of JavaScript usage-->
       <h4>Contact Me</h4>
-      Here goes the contact form box
+      <form onsubmit="return false">
+        <input type="text" placeholder="Name" id="input-name"> <br> <br>
+        <input type="email" placeholder="Email" id="input-email"> <br> <br>
+        <span>Enter your message or question here:</span> <br>
+        <textarea id="message" rows="4"></textarea>
+        <button onclick="sendContact();">Send</button>
+      </form>
     </section>
     <footer id="footer"> <!--Needs the HTML base, CSS formatting, and JavaScript usage with links and mouseover events-->
-      Here goes link to github, facebook, and youtube.
+      <a href="https://github.com/CoyReid" target="_blank" rel="noopener noreferrer">Github</a>
+      <a href="https://www.facebook.com/coywaynereid/" target="_blank" rel="noopener noreferrer">Facebook</a>
     </footer> <!--Eventually add in links to LinkedIn and other social media-->
     <script src="script.js"></script>
   </body>

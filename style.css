@@ -1,27 +1,82 @@
 body {
     background-color: #5f8071;
+    align-items: center;
   } 
+
+#navigation {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  background-color: black;
+  color: white;
+}
+
+h2, h3 {
+  color: indigo;
+}
+
+h3 {
+  text-align: center;
+}
 
 #intro {
   background-color: white;
+  margin: 0 200px 0 200px;
+  text-align: center;
+  font-size: 26px;
+  padding: 0 40px 0 40px;
 }
 
 #about {
   background-color: white;
+  text-align: left;
+  font-size: 24px;
+  margin: 0 120px 0 120px;
+  padding: 0 40px 0 40px;
 }
 
 #interests {
   background-color: white;
+  margin: 0px 750px 0 750px;
+}
+
+#games {
+  text-align: left;
+}
+
+.game-genre {
+  
+}
+
+.music-genre {
+  
+}
+
+#music {
+  text-align: left;
 }
 
 #professional {
   background-color: white;
+  text-align: center;
+  margin: 0 340px 0 340px;
+  font-size: 20px;
+}
+
+#professional-experience {
+  margin: auto;
 }
 
 #contact {
   background-color: white;
+  text-align: center;
 }
 
 #footer {
   background-color: black;
+  color: white;
+  text-align: center;
 }

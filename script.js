@@ -3,3 +3,12 @@ h2.textContent = "This content added by JavaScript";
 
 document.querySelector('body').appendChild(h2); */
 
+const welcome = document.getElementById("welcome-message");
+
+welcome.addEventListener("mouseover", function() {
+    welcome.style.backgroundColor = "purple";
+})
+
+welcome.addEventListener("mouseout", function() {
+    welcome.style.backgroundColor = "black";
+})
